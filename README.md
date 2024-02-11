@@ -16,8 +16,23 @@ Based on [Mary-ui](https://mary-ui.com)
 
 
 #### How to use it ?
-Just create a repository using this template or fork it.
+- Create a repository using this template or fork it.
+Then run the commands below : 
+```bash
+composer install
+ 
+php artisan mary:install
 
+php artisan key:generate
+
+php artisan migrate
+
+php artisan serve
+
+yarn dev
+
+```
+- Follow the [Mary-ui documentation](https://mary-ui.com/docs/installation)
 
 ## Contributing
 
