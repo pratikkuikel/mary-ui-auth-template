@@ -5,6 +5,8 @@ This template saves your time by providing basic authentication features out of 
 
 Based on [Mary-ui](https://mary-ui.com)
 
+![1707653872173](image/README/1707653872173.png)
+
 #### Includes ?
 - Login
 - Register
