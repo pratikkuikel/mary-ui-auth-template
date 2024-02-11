@@ -6,13 +6,8 @@ use App\Livewire\Auth\Login;
 use App\Livewire\Auth\Register;
 use App\Livewire\Auth\ResetPassword;
 use App\Livewire\Auth\VerifyEmail;
-use App\Models\User;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use App\Livewire\Welcome;
-
-Route::get('data', function () {
-    return User::all();
-});
 
 Route::get('/', Welcome::class)
     ->middleware(['auth', 'verified'])
