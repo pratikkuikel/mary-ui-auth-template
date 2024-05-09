@@ -12,7 +12,6 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://yourproductionurl.com",
-        "ASSET_URL": "https://yourproductionurl.com",
         "APP_KEY": "base64:gxKtpOFhtxmq6HKRasWIYWE79hfWrdVozVG2XX8I3k4=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
