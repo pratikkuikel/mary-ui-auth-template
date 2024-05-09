@@ -5,6 +5,9 @@
         "dev": "vite",
         "build": "vite build"
     },
+    "engines": {
+        "node": "18.x"
+    },
     "devDependencies": {
         "autoprefixer": "^10.4.17",
         "axios": "^1.6.4",
